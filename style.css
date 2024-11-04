@@ -580,7 +580,7 @@
     line-height: 3rem;
   }
   
-  @media (max-width: 1100px) {
+  @media only screen and (max-width: 1100px) {
     #home .showcase .showcase-content .home-title {
       padding-left: 4rem;
     }
@@ -612,7 +612,7 @@
     }
   }
   
-  @media (max-width: 900px) {
+  @media only screen and (max-width: 900px) {
     #timeline .timeline-content ul li div {
       width: 250px;
     }
@@ -621,7 +621,7 @@
     }
   }
   
-  @media (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     #home .showcase .showcase-content .home-title h1 {
       font-size: 8rem;
     }
@@ -651,7 +651,7 @@
     }
   }
   
-  @media (max-width: 600px) {
+  @media only screen and (max-width: 600px) {
     .lead {
       font-size: 1.2rem;
     }
